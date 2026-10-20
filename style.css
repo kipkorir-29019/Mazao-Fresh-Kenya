@@ -1,0 +1,196 @@
+
+/* Index.html styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9f1;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header: Business name and logo */
+header {
+    background-color: #176b3a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: rgb(100, 7, 250);
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+    color: burlywood;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+    color: #ae4d77;
+}
+
+
+/* Footer */
+footer {
+    background-color: #104d2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0%;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+
+    
+}
+
+footer p {
+    font-size: 17px;
+    font-style: italic;
+    color: rgb(190, 185, 185);
+}
+
+
+/* Navigation menu */
+nav {
+    background-color: #d7ac10;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0%;
+    padding-bottom: 3px;
+    width: 81%;
+    left: 9.2%;
+    top: 46%;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid rgba(72, 5, 230, 0.5); 
+
+}
+
+nav a {
+    color: rgb(21, 1, 2);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 5px;
+
+}
+
+nav a:hover {
+    color: #1cbbc6;
+    text-decoration: underline;
+}
+
+
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(57, 201, 217);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);;
+}
+
+main h2 {
+    color: #7e5605;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main p {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+form{
+    display: column;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: rgb(138, 8, 251);
+    font: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
+
+
+}
+form input {
+  width: 300px;
+  height: 30px;
+  margin: 3px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(98, 6, 21);
+  text-decoration: none;
+}
+
+form textarea {
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1.5px solid rgb(98, 6, 21);
+  background-color: rgb(215, 211, 211);
+  color: rgb(225, 8, 37);
+  padding-top: 4px;
+  padding-left: 20px;
+  margin-top: 3px;
+}
+form button{
+  background-color: rgb(109, 91, 91);
+  border: 2px solid rgb(230, 10, 46);
+  color: rgb(10, 230, 28);
+  padding: 7px;
+  width: 140px;
+  border-radius: 8px;
+  cursor: pointer;
+  bottom: 30px;
+  right: 50%;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body h3{
+    text-align: center;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+body p{
+    text-align: center;
+}
+main iframe{
+    border-radius: 20px;
+    background-color: rgb(112, 85, 85);
+}
